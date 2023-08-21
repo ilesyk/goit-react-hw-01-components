@@ -12,4 +12,3 @@ export const Table = styled.table`
   }
   margin: 20px auto;
 `;
-
