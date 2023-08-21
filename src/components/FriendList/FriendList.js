@@ -1,5 +1,5 @@
-import { FriendListItem } from "./FriendListItem";
-
+import { FriendListItem } from "../FriendListItem/FriendListItem";
+import PropTypes from 'prop-types';
 
 export function FriendList({ friends }) {
     return (
@@ -11,3 +11,6 @@ export function FriendList({ friends }) {
     );
 }
 
+FriendList.propTypes = {
+  friends: PropTypes.array,
+}
